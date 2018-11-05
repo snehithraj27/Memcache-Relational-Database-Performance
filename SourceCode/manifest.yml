@@ -1,0 +1,6 @@
+---
+applications:
+ - name: GetStartedPython
+   random-route: true
+   memory: 64M
+   command: python3 app.py

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>Assignment3</h1>
+<h1>Snehith Raj Bada</h1>
+<h1>1001552507</h1>
+</body>
+
+<h3>Create table</h3>
+<form action="/createtable" method="post" enctype="multipart/form-data">
+     <label>Click to create table:</label>
+    <input type="submit" />
+</form>
+<br>
+
+<h3>Upload file to insert data</h3>
+<form action="/upload" method="post" enctype="multipart/form-data">
+    <input type="file" name="data_file" />
+    <input type="submit" />
+</form>
+<br>
+<h3>Delete table</h3>
+<form action="/deletetable" method="post" enctype="multipart/form-data">
+     <label>Click to delete table :</label>
+    <input type="submit" />
+</form>
+<br>
+
+<h3>Enter number of random queries (upto 1000)</h3>
+<form action="/queries" method="post" enctype="multipart/form-data">
+     <label>Enter number:</label>
+    <input type="text" name="value" />
+    <input type="submit" />
+</form>
+<br>
+
+<h3>Enter magnitude</h3>
+<form action="/queriesvalue" method="post" enctype="multipart/form-data">
+    <label>Enter number:</label>
+    <input type="text" name="no" />
+    <label>Enter magnitude:</label>
+    <input type="text" name="value" />
+    <input type="submit" />
+</form>
+<br>
+
+<h3>Enter number of random queries (upto 1000) (Memcache)</h3>
+<form action="/queriesmemcache" method="post" enctype="multipart/form-data">
+     <label>Enter number:</label>
+    <input type="text" name="value" />
+    <input type="submit" />
+</form>
+<br>
+
+<h3>Enter magnitude (Memcache)</h3>
+<form action="/queriesvaluememcache" method="post" enctype="multipart/form-data">
+    <label>Enter number:</label>
+    <input type="text" name="no" />
+    <label>Enter magnitude:</label>
+    <input type="text" name="value" />
+    <input type="submit" />
+</form>
+<br>
+
+<h3>Display Records</h3>
+<form action="/getrecords" method="post" enctype="multipart/form-data">
+    <input type="submit" />
+</form>
+<h3>Delete all Records</h3>
+<form action="/deleterecords" method="post" enctype="multipart/form-data">
+    <input type="submit" />
+</form>
+
+</body>
+</html>
