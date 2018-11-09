@@ -10,7 +10,7 @@ measure performance, and then improve performance.
  Measure performance on SQL tables: creating, querying,  
  modifying data (tuples). 
 
- Get well structured data at: 
+ For data please visit the below link: 
   https://earthquake.usgs.gov/earthquakes/feed/v1.0/csv.php 
   
   
