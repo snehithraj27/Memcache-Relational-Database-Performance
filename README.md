@@ -25,7 +25,5 @@ measure performance, and then improve performance.
   3. Measure time expended to perform these queries. 
   4. Show results. 
 
-  Users of this service will interact with your performance service through web 
-  page interfaces, all processing and web service hosting is (of course) cloud  
-  based. 
+  
  
